@@ -1,4 +1,4 @@
-sap.ui.controller("z_nayan_ui5.Z_NAYAN_UI5App", {
+sap.ui.controller("z_nayan_ui5.Z_NAYAN_UI5", {
 
 /**
 * Called when a controller is instantiated and its View controls (if available) are already created.
