@@ -1,6 +1,6 @@
 <core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
 		controllerName="z_nayan_ui5.Z_NAYAN_UI5App" xmlns:html="http://www.w3.org/1999/xhtml">
-	<Page title="TestNilot DevOps UI5...Latest Test">
+	<Page title="TestNilot DevOps UI5...Latest Test123">
 		<content>
 	
 		</content>
