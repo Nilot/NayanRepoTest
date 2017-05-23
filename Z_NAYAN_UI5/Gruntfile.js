@@ -34,7 +34,7 @@ module.exports = function(grunt) {
               '**/*.view.json',
               '**/*.view.xml',
               '**/*.properties',
-                                             '**/Valuehelp.json',
+              '**/Valuehelp.json',
               '!**/Component-preload.js'
             ]
           },
