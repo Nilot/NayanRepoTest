@@ -13,8 +13,7 @@
 			<Input id="input-a" required="true"/>
 			<Label text="Employee Name" labelFor="input-b" />
 			<Input id="input-b"/>
-			<Label text="DateOfBirth(mm/dd/yyyy)" labelFor="input-c"/>
-			<Input id="input-c"/>
+<!-- 			<Label text="DateOfBirth(mm/dd/yyyy)" labelFor="input-c"/><Input id="input-c"/> -->
 		</l:content>
 		<Button type="Accept"
 						text="Submit"
