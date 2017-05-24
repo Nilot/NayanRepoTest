@@ -1,8 +1,28 @@
 <core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
-		controllerName="z_nayan_ui5.Z_NAYAN_UI5App" xmlns:html="http://www.w3.org/1999/xhtml">
-	<Page title="TestNilot DevOps UI5 Upload.123">
+		controllerName="z_nayan_ui5.Z_NAYAN_UI5App" xmlns:html="http://www.w3.org/1999/xhtml"
+		xmlns:l="sap.ui.layout" >
+	<Page title="Test Nilot SAP UI5 integration with Jenkin.(DevOps)" >
 		<content>
- 	    <Link text="Welcome to SAP" target="_blank" href="http://www.sap.com" />
+	 <!--  -->
+ 	    <Link text="Welcome to Loblaw" target="_blank" href="http://www.loblaw.ca/en.html" />
+ 	    <l:VerticalLayout
+		class="sapUiContentPadding"
+		width="30%">
+		<l:content>
+			<Label text="Loblaw LCL ID" labelFor="input-a" design="Bold"/>
+			<Input id="input-a" required="true"/>
+			<Label text="Employee Name" labelFor="input-b" />
+			<Input id="input-b"/>
+			<Label text="DateOfBirth(mm/dd/yyyy)" labelFor="input-c"/>
+			<Input id="input-c"/>
+		</l:content>
+		<Button type="Accept"
+						text="Submit"
+						press="onPress"
+						ariaDescribedBy="acceptButtonDescription genericButtonDescription" />
+	   </l:VerticalLayout>
+	  
+	 <!--  -->
 		</content>
 	</Page>
 </core:View>
