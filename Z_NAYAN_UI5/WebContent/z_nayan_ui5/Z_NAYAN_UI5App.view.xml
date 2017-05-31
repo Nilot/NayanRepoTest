@@ -1,7 +1,7 @@
 <core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
 		controllerName="z_nayan_ui5.Z_NAYAN_UI5App" xmlns:html="http://www.w3.org/1999/xhtml"
 		xmlns:l="sap.ui.layout" >
-	<Page title="Test NilsUI5 integration with Jenkin.(DevOps)" >
+	<Page title="Test Nilotpal UI5 integration with Jenkin.(DevOps)" >
 		<content>
 	 <!--  -->
  	    <Link text="Welcome to Loblaw" target="_blank" href="http://www.loblaw.ca/en.html" />
@@ -13,7 +13,7 @@
 			<Input id="input-a" required="true"/>
 			<Label text="Employee Name" labelFor="input-b" />
 			<Input id="input-b"/>
-<!-- 			<Label text="Date-Of-Birth(mm/dd/yyyy)" labelFor="input-c"/><Input id="input-c"/> -->
+			<Label text="Date-Of-Birth(mm/dd/yyyy)" labelFor="input-c"/><Input id="input-c"/>
 		</l:content>
 		<Button type="Accept"
 						text="Submit"
